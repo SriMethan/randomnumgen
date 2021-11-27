@@ -15,7 +15,7 @@ setup(
   author = 'SriMethan',                   
   url = 'https://github.com/SriMethan/randomnumgen',  
   download_url = 'https://github.com/SriMethan/randomnumgen/archive/refs/heads/main.zip',    
-  keywords = ['RANDOMNUMGEN', 'MEANINGFULL', 'KEYWORDS'],   
+  keywords = ['SOME', 'MEANINGFULL', 'KEYWORDS'],   
   classifiers=[
     'Intended Audience :: Developers',      
     'License :: OSI Approved :: MIT License',   
