@@ -1,10 +1,8 @@
-import os
-import io
-import setuptools
+from distutils.core import setup
 
-def read_description():
-  description = io.open(os.path.join(os.path.dirname(__file__), 'README.md'), encoding='utf-8').read()
-  return description
+from pathlib import Path
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
 
 setup(
   name = 'randomnumgen',         
