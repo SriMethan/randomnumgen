@@ -1,6 +1,6 @@
-![PyPI version](https://badge.fury.io/py/randomnumgen.svg) ![Tests](https://github.com/SriMethan/randomnumgen/actions/workflows/tests.yml/badge.svg)
-
 # randomnumgen
+
+![PyPI version](https://badge.fury.io/py/randomnumgen.svg) ![Tests](https://github.com/SriMethan/randomnumgen/actions/workflows/tests.yml/badge.svg)
 
 **Randomnumgen is a Python library that generates random numbers.**
 
