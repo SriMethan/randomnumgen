@@ -1,3 +1,3 @@
 import random
 
-randomnumgen = random.randint(1, 100)
+randomnum = random.randint(1, 100)
