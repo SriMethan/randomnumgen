@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 setup(
   name = 'randomnumgen',         
   packages = ['randomnumgen'],   
-  version = '0.1',      
+  version = '1.0',      
   license='MIT',        
   description = 'A Python3 library that generates random numbers.',   
   author = 'SriMethan',                   
