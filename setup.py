@@ -15,7 +15,6 @@ setup(
   download_url = 'https://github.com/SriMethan/randomnumgen/archive/refs/heads/main.zip',    
   keywords = ['SOME', 'MEANINGFULL', 'KEYWORDS'],   
   classifiers=[
-    'Development Status :: 3 - Alpha',      
     'Intended Audience :: Developers',      
     'License :: OSI Approved :: MIT License',   
     'Programming Language :: Python :: 3.7',
