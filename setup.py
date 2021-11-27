@@ -1,20 +1,10 @@
-import setuptools
-import subprocess
 import os
+import io
+import setuptools
 
-cf_remote_version = (
-    subprocess.run(["git", "describe", "--tags"], stdout=subprocess.PIPE)
-    .stdout.decode("utf-8")
-    .strip()
-)
-assert "." in cf_remote_version
-
-assert os.path.isfile("cf_remote/version.py")
-with open("cf_remote/VERSION", "w", encoding="utf-8") as fh:
-    fh.write(f"{cf_remote_version}\n")
-
-with open("README.md", "r", encoding="utf-8") as fh:
-    long_description = fh.read()
+def read_description():
+  description = io.open(os.path.join(os.path.dirname(__file__), 'README.md'), encoding='utf-8').read()
+  return description
 
 setup(
   name = 'randomnumgen',         
