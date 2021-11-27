@@ -1,18 +1,22 @@
-from distutils.core import setup
+import setuptools
 
-setup(
-  name = 'randomnumgen',         
-  packages = ['randomnumgen'],   
-  version = '1.0',      
-  license='MIT',        
-  description = 'A Python3 library that generates random numbers.',   
-  author = 'SriMethan',                   
-  url = 'https://github.com/SriMethan/randomnumgen',  
-  download_url = 'https://github.com/SriMethan/randomnumgen/archive/refs/heads/main.zip',    
-  keywords = ['SOME', 'MEANINGFULL', 'KEYWORDS'],   
-  classifiers=[
-    'Intended Audience :: Developers',      
-    'License :: OSI Approved :: MIT License',   
-    'Programming Language :: Python :: 3.7',
-  ],
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
+
+setuptools.setup(
+    name="randomnumgen",
+    version="1.0.0",
+    author="SriMethan",
+    description="A Python3 library that generates random numbers",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/SriMethan/randomnumgen",
+    project_urls={
+        "Bug Tracker": "https://github.com/SriMethan/randomnumgen/issues",
+    },
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "Operating System :: OS Independent",
+    ],
 )
