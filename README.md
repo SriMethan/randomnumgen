@@ -22,4 +22,4 @@ print(randomnumgen)
 ```
 
 ## License
-randomnumgen is licensed under the MIT (or any later version at your option). Check out LICENSE.txt for the full text.
+randomnumgen is licensed under the MIT Check out LICENSE.txt for the full text.
