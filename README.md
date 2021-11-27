@@ -18,7 +18,7 @@ Example usuage
 ```python
 import randomnumgen
 
-print(randomnumgen)
+print(randomnum)
 ```
 
 ## License
