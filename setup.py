@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="randomnumgen",
-    version="1.0.0",
+    version="1.1.0",
     author="SriMethan",
     description="A Python3 library that generates random numbers",
     long_description=long_description,
