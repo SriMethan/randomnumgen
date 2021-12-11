@@ -18,8 +18,11 @@ Example usuage
 ```python
 import randomnumgen
 
+num1 = 1
+num2 = 100
+
 print(randomnum)
 ```
 
 ## License
-randomnumgen is licensed under the MIT Check out LICENSE.txt for the full text.
+**randomnumgen is licensed under the MIT Check out LICENSE.txt for the full text.**
